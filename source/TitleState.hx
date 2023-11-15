@@ -711,7 +711,7 @@ class TitleState extends MusicBeatState
 				var sound:FlxSound = null;
 				switch(easteregg)
 				{
-					case 'NEVER':
+					case 'NEVERMINDS':
 						sound = FlxG.sound.play(Paths.sound('JingleRiver'));
 					case 'ADRYAN':
 						sound = FlxG.sound.play(Paths.sound('JingleShubs'));
