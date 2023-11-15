@@ -20,7 +20,7 @@ class MainMenuState extends MusicBeatState
 
 
 	public static var UltimateVersion:String = ' 1.0';
-	public static var psychEngineVersion:String = '0.7h'; 
+	public static var psychEngineVersion:String = '0.6.3h'; 
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
