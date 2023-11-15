@@ -682,13 +682,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Star";
 				// credTextShit.screenCenter();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('Star');
 				// credTextShit.visible = true;
 				case 15:
-					addMoreText('Night');
+					addMoreText('Funkin');
 				// credTextShit.text += '\nFunkin';
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nOw yeah!';
+					addMoreText('Ow Yeaah'); // credTextShit.text += '\nOw yeah!';
 
 				case 17:
 					skipIntro();
@@ -711,13 +711,13 @@ class TitleState extends MusicBeatState
 				var sound:FlxSound = null;
 				switch(easteregg)
 				{
-					case 'RIVER':
+					case 'NEVER':
 						sound = FlxG.sound.play(Paths.sound('JingleRiver'));
-					case 'SHUBS':
+					case 'ADRYAN':
 						sound = FlxG.sound.play(Paths.sound('JingleShubs'));
-					case 'SHADOW':
+					case 'HUTARO':
 						FlxG.sound.play(Paths.sound('JingleShadow'));
-					case 'BBPANZU':
+					case 'GUSAIBO':
 						sound = FlxG.sound.play(Paths.sound('JingleBB'));
 
 					default: //Go back to normal ugly ass boring GF
