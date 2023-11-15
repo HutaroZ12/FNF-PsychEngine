@@ -87,9 +87,9 @@ class TitleState extends MusicBeatState
 	override public function create():Void
 	{
 		#if android
-	        FlxG.android.preventDefaultKeys = [BACK];
-	        #end
-			
+		FlxG.android.preventDefaultKeys = [BACK];
+		#end
+		
 		Paths.clearStoredMemory();
 		Paths.clearUnusedMemory();
 
@@ -679,16 +679,16 @@ class TitleState extends MusicBeatState
 				case 13:
 					deleteCoolText();
 				// credTextShit.visible = false;
-				// credTextShit.text = "Friday";
+				// credTextShit.text = "Star";
 				// credTextShit.screenCenter();
 				case 14:
 					addMoreText('Friday');
 				// credTextShit.visible = true;
 				case 15:
 					addMoreText('Night');
-				// credTextShit.text += '\nNight';
+				// credTextShit.text += '\nFunkin';
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Funkin'); // credTextShit.text += '\nOw yeah!';
 
 				case 17:
 					skipIntro();
